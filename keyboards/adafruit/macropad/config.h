@@ -50,3 +50,10 @@
 #define AUDIO_CLICKY
 
 #define SPEAKER_SHUTDOWN GP14
+
+/* RGB MATRIX STUFF*/
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 150 // limits maximum brightness of LEDs to 200 out of 255. If not defined maximum brightness is set to 255
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_CYCLE_LEFT_RIGHT // Sets the default mode, if none has been set
+#define RGB_MATRIX_SLEEP // turn off effects when suspended
+#define OLED_TIMEOUT 60000 //Turns off the OLED screen after 60000ms of screen update inactivity. Helps reduce OLED Burn-in. Set to 0 to disable.
+#define RGB_MATRIX_DEFAULT_SPD 127 // Sets the default animation speed, if none has been set
