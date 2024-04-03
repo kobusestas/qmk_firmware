@@ -18,6 +18,7 @@
 #define MACOS_LOCK LGUI(LCTL(KC_Q))
 #define TASK_VIEW LCTL(KC_UP)
 #define WEBEX_MUTE LSFT(LGUI(KC_A))
+#define KEYPASS_AUTOTYPE LSFT(LGUI(KC_F1))
 
 enum custom_keycodes {
   EMAIL = SAFE_RANGE,
@@ -31,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       MACOS_LOCK, TASK_VIEW, KC_F18,
       EMAIL, WEBEX_MUTE, KC_F16,
       CSACCOUNT, KC_F17, KC_F19,
-      ACCOUNTNAME, KC_MEDIA_PLAY_PAUSE, LSFT(KC_F19)
+      ACCOUNTNAME, KC_MEDIA_PLAY_PAUSE, KEYPASS_AUTOTYPE
   ),
   [1] = LAYOUT(
                         _______,
