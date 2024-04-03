@@ -29,9 +29,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT(
                     LT(1,KC_MUTE),
       MACOS_LOCK, TASK_VIEW, KC_F18,
-      EMAIL, WEBEX_MUTE, KC_9,
-      CSACCOUNT, KC_F17, KC_6,
-      ACCOUNTNAME, KC_MEDIA_PLAY_PAUSE, KC_3
+      EMAIL, WEBEX_MUTE, KC_F16,
+      CSACCOUNT, KC_F17, KC_F19,
+      ACCOUNTNAME, KC_MEDIA_PLAY_PAUSE, LSFT(KC_F19)
   ),
   [1] = LAYOUT(
                         _______,
